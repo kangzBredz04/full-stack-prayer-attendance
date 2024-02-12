@@ -14,5 +14,5 @@ compatibility_date = "2023-12-01"
 
 # [[d1_databases]]
 # binding = "DB"
-# database_name = "my-database"
-# database_id = ""
+# database_name = "prayer-attendance"
+# database_id = "44fd8a47-2c8b-82e2-14cff7d3bf22"

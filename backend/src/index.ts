@@ -6,6 +6,13 @@ app.get("/", (c) => {
   return c.text("Bismilah Sukses!");
 });
 
+app.get("/api/hello", (c) => {
+  return c.json({
+    ok: true,
+    message: "Hello Hono!",
+  });
+});
+
 app.notFound((c) => {
   return c.text("Halaman tidak ditemukan...", 404);
 });
